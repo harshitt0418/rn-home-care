@@ -5,7 +5,7 @@ import {
   Phone, MessageCircle, ShieldCheck, Award, RefreshCw, ClipboardCheck, IndianRupee,
   Clock, Users, BadgeCheck, Wallet, MapPin, Mail, Star, ChevronLeft, ChevronRight,
   CheckCircle2, Menu, X, Heart, Facebook, Instagram, Youtube, Linkedin, PhoneCall,
-  UserCheck, Home as HomeIcon, Flower2, Salad,
+  UserCheck, Home as HomeIcon, Flower2, Salad, BriefcaseMedical,
 } from "lucide-react";
 import { z } from "zod";
 import { Button } from "@/components/ui/button";
@@ -44,6 +44,7 @@ const services = [
   { icon: Accessibility, title: "Physiotherapy & Post-Hospital Care", short: "Recovery support after discharge.", detail: "Certified physiotherapists for post-surgery, stroke, fracture and joint replacement rehab, combined with nursing support during the critical recovery weeks." },
   { icon: Flower2, title: "Yoga & Wellness at Home", short: "Personal yoga sessions for strength & calm.", detail: "Certified yoga instructors design gentle, safe sessions for seniors, post-surgery recovery, pregnancy, back pain and stress relief — one-on-one, at your home and pace." },
   { icon: Salad, title: "Dietician & Nutrition Consultation", short: "Expert diet plans for every condition.", detail: "Qualified dietitians assess your health reports and lifestyle to create practical meal plans for diabetes, BP, weight, pregnancy, child nutrition and post-surgery recovery." },
+  { icon: BriefcaseMedical, title: "Doctor Visit at Home", short: "Qualified doctors for check-ups & consultation at home.", detail: "Experienced MBBS & specialist doctors visit your home for thorough physical check-ups, illness diagnosis, prescription review, post-hospital follow-ups and chronic care management." },
 ];
 
 const steps = [
